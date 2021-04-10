@@ -1,0 +1,192 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+
+/*--- common css --*/
+*{
+  box-sizing:border-box;
+}
+body{
+  margin:0;
+  padding:0;
+  font-family: Roboto,Arial,sans-serif;
+
+}
+.top{
+  width: 100%;
+  padding: 10px 0;
+  background-color: #2874f0;
+}
+.topbar{
+  width:75%;
+  height: 37px;
+  margin: 0 auto;
+  display: flex;
+
+  
+}
+.one{
+margin-right: 10px;
+}
+.one p{
+  color: white;
+  margin-top: -1px;
+  font-style: italic;
+  font-size: 11px;
+}
+.one span{
+  color: #ffe500;
+  margin-right: 1px;
+  font-size: 11px;
+  
+}
+.searchbar{
+  display: flex;
+
+}
+.box{
+  width: 450px;
+  height: 35px;
+  border: none;
+
+}
+.searchicon{
+ padding: 10px;
+ height: 35px;
+  background-color: white;
+  border: none;
+
+}
+.btn{
+  font-size: 18px;
+  color: #2874F0;
+}
+.right{
+  display: flex;
+  align-items: center;
+}
+.login{
+ padding: 5px 40px;
+ background-color: white;
+ color: #2874F0;
+ font-weight: bold;
+ font-size: 15px;
+  margin-left: 60px;
+}
+.more{
+ color: white;
+ margin:0 25px;
+ display: flex;
+ align-items: center;
+ font-size: 15px;
+ font-weight: bold;
+}
+.arrow{
+ color: white;
+ font-size: 9px;
+ padding: 8px 6px;
+}
+.cart{
+
+ margin:0 20px;
+}
+.shop{
+ color: white;
+ padding: 4px 0;
+}
+.cart span{
+ color: white;
+ margin-left: 5px;
+ font-weight: bold;
+ font-size: 17px;
+ padding: 10px 0;
+}
+.section{
+ padding: 10px 0;
+ 
+}
+.items{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.offer{
+padding: 8px 12px;
+
+}
+.img{
+ width: 64px;
+ margin: 0 auto;
+}
+.text{
+ font-weight: bold;
+ font-size: 12px;
+ text-align: center;
+}
+.content{
+ background-color: #F1F3F6;
+ padding: 15px 0;
+}
+.images{
+width: 100%;
+
+}
+
+
+
+
+
+
+.itemPrizeSection {
+  display: flex;
+  justify-content: space-between;
+  background-color: #cdc9c9;
+}
+
+.itemPrizes {
+  padding: 20px;
+  background-color: #bab7b7;
+}
+.itemPrizes h6 {
+  margin: 0;
+}
