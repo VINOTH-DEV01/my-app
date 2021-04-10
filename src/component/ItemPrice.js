@@ -11,8 +11,8 @@ function ItemPrice(props) {
         if(gender !== '') {
             props.getDatafromChildComponent(gender);
         }
-    }
-    return (
+    }                                                                                                                                                                                                                                                                                                                                                 
+    return (   
         <React.Fragment>
             {props.value.map((item, index) => {
                 return (
