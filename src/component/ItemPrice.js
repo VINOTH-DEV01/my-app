@@ -20,7 +20,7 @@ function ItemPrice(props) {
                             <div  className="itemPrizes">
                                 <h6>{gender + item.name}</h6>
                                 <h5>{item.location}</h5>
-                                <button onClick={addGrenderVal}>data to Parent comp.</button>
+                                <button onClick={addGrenderVal}>data to Parent comp.</button> 
                         </div>
                     </React.Fragment>
                 )
